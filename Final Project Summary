@@ -1,0 +1,14 @@
+# Mymap.html - main file for interactive map.
+# Geocoding.ipynb - jupyter notebook for geocoding to get latitude and longtitude in advance
+# Airplane_Crashes_and_Fatalities_Since_1908.csv - dataset
+
+### Summary: For the final project, I decided to build a better model or graph of a dataset on airplane crashes I use for my DS120 class. In my DS120 final project, I plotted all the airplane crashes locations on Google Map using Google Map Geocoding API in Javascript and I was able to show the distribution of all the crashes since 1908 until 2010 on the map. However, the page took a long time to load and the map is only one static frame that does not let the viewers see the distribution of crashes in two dimensions - time and space. I run the Geocoding part for each decade in Python in advance in Python to enhance the loading speed of the page and plot all the crashes locations on the map by decade. When the viewers see the map, they can click on one decade and the markers for the all the crashes locations in that decade will drop down to demonstrate the crashes and viewers can also click on each marker to see the date and specific location of the crash. Moreover, there is also a crashes counter that show the total number of crashes for the decades chosen. 
+
+## From using the interactive map, viewers will be able to answer many questions:
+    `` "What is the distribution of crashes both in time and geography aspects?" `` 
+    `` "How does the growth of crashes look like through time?" `` 
+    `` "How does the number of fatalities distribute through the year" `` 
+    
+## Limitations: I decided to get rid of a few crashes that do not have locations noted down or have ambiguous locations (can't be translated by Geocoding).
+
+# Note: I first worked on the Directory of Pubilc Toilets in NYC. However, I did not think the data was insightful enough to conduct an analysis so I decided to do a deeper analysis on the Airplane crashes data.
